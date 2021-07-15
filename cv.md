@@ -26,4 +26,11 @@ async function getJoke() {
 getJoke() 
 ````
 ## Work experience:
-I have no experience in web development experience, so I want to get it in a RSSchool.
+I have no experience in web development, so I want to get it in a RSSchool.
+
+## Education
+- Higher education: Vladivostok State University Of Economics And Service
+- freeCodeCamp
+
+## English level
+At the moment my level is A2 and I continue to improve it.

@@ -8,6 +8,15 @@ img {
     object-fit: cover;
 }
 
+h1 {
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+ul {
+    margin: 0;
+}
+
 .container {
     max-width: 1000px;
     margin: 0 auto;
@@ -34,15 +43,6 @@ img {
 
 .header__avatar-img {
     border-radius: 50%;
-}
-
-h1 {
-    text-transform: uppercase;
-    margin-bottom: 5px;
-}
-
-ul {
-    margin: 0;
 }
 
 .header__title h2 {

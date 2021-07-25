@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/icons.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Pavel Vasinsky</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__wrapper">
+                <figure class="header__avatar">
+                    <img class="header__avatar-img" src="img/avatar.jpg" alt="avatar">
+                </figure>
+                <div class="header__title">
+                    <h1 class="header__name">Pavel Vasinsky</h1>
+                    <h2>RSSchool student</h2>
+                    <h3>Contacts:</h3>
+                    <ul class="contacts">
+                        <li class="_icon-mail"><a href="mailto:vpa05@mail.ru" target="_blank"> vpa05@mail.ru</a></li>
+                        <li class="_icon-telegram"><a href="https://telegram.me/PavelVasinsky" target="_blank">
+                                @PavelVasinsky</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <div class="container">
+        <main class="about">
+            <h2>About me:</h2>
+            <p>I live in Russia in a small town of Primorsky Krai. I have a higher education and I want to become a
+                web developer.</p>
+        </main>
+        <section class="skills">
+            <h2>Skills:</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+        </section>
+        <section class="code">
+            <h2>Sample code:</h2>
+            <pre><code>
+    const apiUrl = "https://api.chucknorris.io/jokes/random";
+    const jokeEl = document.getElementById("joke");
+
+    async function getJoke() {
+        const joke = await fetch(apiUrl).then(response => response.json()).then(data => data.value);
+        console.log(joke);
+        jokeEl.textContent = joke;
+    }
+
+    getJoke();
+
+            </code></pre>
+        </section>
+        <section class="experience">
+            <h2>Work experience:</h2>
+            <p>I have no experience in web development, so I want to get it in a RSSchool.</p>
+        </section>
+        <section class="education">
+            <h2>Education:</h2>
+            <ul>
+                <li>Higher education: Vladivostok State University Of Economics And Service</li>
+                <li>freeCodeCamp</li>
+            </ul>
+        </section>
+        <section class="english">
+            <h2>English level:</h2>
+            <p>At the moment my level is A2 and I continue to improve it.</p>
+        </section>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer_wrapper">
+                <div class="github-icon">
+                    <a href="https://github.com/Rz0R/">
+                        <img src="img/github-brands.svg" alt="github">
+                    </a>
+                </div>
+                <time class="year">2021</time>
+                <div class="rsshcool-icon">
+                    <a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg"
+                            alt="RSSchool"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
